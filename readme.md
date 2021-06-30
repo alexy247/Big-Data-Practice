@@ -6,3 +6,7 @@
 * [mmap docs](https://docs.python.org/3/library/mmap.html#:~:text=A%20memory%2Dmapped%20file%20is,value%20for%20the%20fileno%20parameter)
 * [Pool](https://codecamp.ru/blog/python-multiprocessing/)
 * [python-mmap with examples](https://realpython.com/python-mmap/)
+* [Simple spark with DF](https://spark-school.ru/blogs/spark-dataframe-functions/)
+* [Spark read from csv](https://sparkbyexamples.com/pyspark/pyspark-read-csv-file-into-dataframe/)
+* [Spark stuct docs](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.sql.types.StructType.html)
+* [Calculating func in pyspark](https://stackoverflow.com/questions/43968946/calculating-percentages-on-a-pyspark-dataframe)
