@@ -7,7 +7,7 @@ max_threads = os.cpu_count()
 def processText(jsonStr):
     wordcount = {}
     description = json.loads(jsonStr)["description"]
-    words = description.lower().replace('.', '').split()
+    words = description.lower().replace('.', '').replace(',', '').replace(' - ', '').replace('- ', '').replace(' -', '').split()
     for word in words:
         if word in wordcount:    
             wordcount[word] += 1
@@ -34,7 +34,7 @@ def get_stat():
         for res in results:
             final = addDict(final, res)
         # return sorted(final)
-        return final['like']
+        return final['the']
 
 if __name__ == '__main__':
     print(get_stat())
