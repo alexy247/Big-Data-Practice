@@ -3,8 +3,6 @@ import json
 from multiprocessing import Pool
 
 max_threads = os.cpu_count()
-# chunks = [[i, i + 1] for i in range(max_threads)]
-# chunks[-1][1] = None
 
 def processText(jsonStr):
     wordcount = {}
